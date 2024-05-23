@@ -1,10 +1,10 @@
 .hero {
   background-image: url("../../assets/images/pencil.jpg");
   background-size: cover;
-  padding: 20px 10px;
+  padding: 20px 0px;
   color: #fff;
   text-align: center;
-  height: 85vh;
+  min-height: 85vh;
 }
 
 .hero__img-container {
@@ -23,33 +23,28 @@
 }
 
 h1 {
+  margin: 30px 0;
   font-size: 40px;
   font-weight: 100;
   color: #cfbeac;
+  background-color: rgba(0, 0, 0, 0.15); /* Subtle background color */
+  /* display: inline-block; */
 }
 
 h2 {
   font-weight: 100;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
-/* .hero__btn {
-  cursor: pointer;
-  margin: 20px;
-  padding: 20px 30px;
-  width: 200px;
-  font-size: 1.25em;
-} */
-
 .hero__btn {
-  display: inline-block; /* Ensures the button behaves like an inline element */
+  display: inline-block;
   cursor: pointer;
-  margin: 20px;
+  margin: 12px;
   padding: 12px 16px;
   width: 200px;
   font-size: 1em;
-  text-align: center; /* Centers the text horizontally */
-  text-decoration: none; /* Removes default underline */
+  text-align: center;
+  text-decoration: none;
   background-color: #333;
   color: #fff;
   border: 1px solid transparent;

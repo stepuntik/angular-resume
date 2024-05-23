@@ -8,7 +8,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -18,7 +17,7 @@
   height: 40px;
   border-radius: 50%;
   overflow: hidden;
-  border: 1px solid #fff;
+  border: 1px solid #cfbeac;
 }
 
 .navbar__logo-img {
@@ -52,8 +51,8 @@
 
 .navbar-burger span {
   display: block;
-  width: 25px;
-  height: 3px;
+  width: 26px;
+  height: 2px;
   background-color: #fff;
   margin: 5px 0;
   transition: all 0.3s;
