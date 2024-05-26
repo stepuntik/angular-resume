@@ -44,3 +44,13 @@ p {
 .basic-info__details span {
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 800px) {
+  .about__card {
+    flex-direction: column;
+  }
+
+  h3 {
+    text-align: center;
+  }
+}

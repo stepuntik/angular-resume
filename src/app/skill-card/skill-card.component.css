@@ -1,0 +1,37 @@
+.tool-card {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 8px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.tool-card:hover {
+  transform: scale(1.05);
+  border-color: var(--hover-color);
+  color: var(--hover-color);
+}
+
+.tool-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.tool-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 680px) {
+  .tool-card {
+    width: 100px;
+    height: 100px;
+  }
+}

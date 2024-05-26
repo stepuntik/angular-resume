@@ -1,3 +1,19 @@
 .footer {
-  background-color: rgb(138, 139, 139);
+  background-color: #171717;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer__link:hover {
+  color: #cfbeac;
+  background-color: #575757;
+  border-radius: 5px;
 }

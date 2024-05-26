@@ -1,0 +1,17 @@
+<div class="project-card">
+  <div class="project-card__content">
+    <h3 class="project-card__title">{{ title }}</h3>
+    <h4 class="project-card__intro">{{ intro }}</h4>
+    <div class="project-card__button-container">
+      <a class="project-card__button" [href]="projectUrl">View</a>
+      <a class="project-card__button" [href]="sourceUrl">Source Code</a>
+    </div>
+  </div>
+  <div class="project-card__image-container">
+    <img
+      class="project-card__image"
+      [src]="image.imageUrl"
+      [alt]="image.imageDesc"
+    />
+  </div>
+</div>
