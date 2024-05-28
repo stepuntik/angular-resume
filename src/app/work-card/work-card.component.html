@@ -1,0 +1,13 @@
+<div class="work-card">
+  <div class="name-date">
+    <h4>{{ duration }}</h4>
+    <h2>{{ company }}</h2>
+    <h4>{{ location }}</h4>
+  </div>
+  <div class="work-details">
+    <h3 class="position">{{ position }}</h3>
+    <ul>
+      <li class="res-list" *ngFor="let res of responsibilities">{{ res }}</li>
+    </ul>
+  </div>
+</div>

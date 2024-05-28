@@ -1,18 +1,9 @@
 [
   {
-    "title": "Full-Stack Developer",
-    "company": "Zone3000, Ukraine",
+    "position": "Full-Stack Developer",
+    "company": "Zone3000",
+    "location": "Ukraine",
     "duration": "2022 - 2023",
-    "technologies": [
-      "React.js",
-      "Node.js",
-      "TypeScript",
-      "REST API",
-      "Jest",
-      "CSS",
-      "MongoDB",
-      "Git"
-    ],
     "responsibilities": [
       "Implemented code migration for a top 5 E-commerce platform in Ukraine from React.js 15 to React.js 18 by using an incremental migration strategy, resulting in a complete and accurate transition for millions of users.",
       "Collaborated in an agile environment within a cross-functional team of 8 professionals, fostering efficient communication and teamwork while delivering successful features.",
@@ -24,8 +15,9 @@
     ]
   },
   {
-    "title": "Digital Marketing Manager",
-    "company": "Springboard International Bilingual School, China",
+    "position": "Digital Marketing Manager",
+    "company": "Springboard International School",
+    "location": "China",
     "duration": "2018 - 2023",
     "responsibilities": [
       "Increased student enrollment by 17% through the development of targeted marketing campaigns.",

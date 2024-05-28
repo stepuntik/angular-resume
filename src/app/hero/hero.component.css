@@ -1,7 +1,7 @@
 .hero {
   background-image: url("../../assets/images/pencil.jpg");
   background-size: cover;
-  padding: 20px 0px;
+  padding-top: 70px;
   color: #fff;
   text-align: center;
   min-height: 85vh;
@@ -27,8 +27,7 @@ h1 {
   font-size: 40px;
   font-weight: 100;
   color: #cfbeac;
-  background-color: rgba(0, 0, 0, 0.15); /* Subtle background color */
-  /* display: inline-block; */
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 h2 {

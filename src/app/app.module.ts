@@ -14,6 +14,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { WorkCardComponent } from './work-card/work-card.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ContactComponent,
     FooterComponent,
     ProjectCardComponent,
+    WorkCardComponent,
   ],
   imports: [BrowserModule, HttpClientModule, FontAwesomeModule],
   providers: [],
