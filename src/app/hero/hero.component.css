@@ -1,7 +1,7 @@
 .hero {
   background-image: url("../../assets/images/pencil.jpg");
   background-size: cover;
-  padding-top: 70px;
+  padding: 70px 0;
   color: #fff;
   text-align: center;
   min-height: 85vh;
