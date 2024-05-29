@@ -1,20 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { HeroComponent } from './hero/hero.component';
 import { SkillsComponent } from './skills/skills.component';
-import { SkillCardComponent } from './skill-card/skill-card.component';
+import { SkillCardComponent } from './skills/skill-card/skill-card.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { WorkComponent } from './work/work.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
-import { ProjectCardComponent } from './project-card/project-card.component';
+import { ProjectCardComponent } from './portfolio/project-card/project-card.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { WorkCardComponent } from './work-card/work-card.component';
+import { WorkCardComponent } from './work/work-card/work-card.component';
+import { ContactFormComponent } from './contact/contact-form/contact-form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,8 +31,9 @@ import { WorkCardComponent } from './work-card/work-card.component';
     FooterComponent,
     ProjectCardComponent,
     WorkCardComponent,
+    ContactFormComponent,
   ],
-  imports: [BrowserModule, HttpClientModule, FontAwesomeModule],
+  imports: [BrowserModule, FormsModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
 })

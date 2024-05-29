@@ -1,3 +1,12 @@
 .contact {
-  background-color: rgb(95, 165, 170);
+  padding: 70px 0;
+  background-image: url("../../assets/images/laptop.jpg");
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 400;
+  color: #fff;
 }
