@@ -13,7 +13,7 @@
 .about__description,
 .about__basic-info {
   flex: 1;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 h3 {
@@ -21,27 +21,22 @@ h3 {
   margin: 20px 0;
 }
 
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
 p {
   margin-bottom: 10px;
 }
 
-.basic-info__container {
-  display: flex;
-}
-
-.basic-info__labels,
 .basic-info__details {
   display: flex;
-  flex-direction: column;
-}
-
-.basic-info__labels {
-  font-weight: bold;
-  margin-right: 30px;
-}
-
-.basic-info__labels span,
-.basic-info__details span {
+  align-items: flex-end;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
@@ -52,5 +47,17 @@ p {
 
   h3 {
     text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .basic-info__details {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  h4,
+  h5 {
+    font-size: 1em;
   }
 }
