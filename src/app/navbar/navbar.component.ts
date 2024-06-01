@@ -10,7 +10,6 @@ export class NavbarComponent implements OnInit {
 
   toggleMenu(): void {
     this.isMenuOpen = !this.isMenuOpen;
-    console.log(this.isMenuOpen);
   }
 
   constructor() {}
